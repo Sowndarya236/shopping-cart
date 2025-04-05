@@ -1,0 +1,47 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+.products,
+.cart {
+  margin-top: 2rem;
+}
+
+.product,
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+button {
+  margin: 0 0.25rem;
+}
+
+.progress-bar {
+  margin-top: 2rem;
+}
+
+.bar {
+  background-color: #ddd;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 0.5rem;
+}
+
+.filled {
+  background-color: #4caf50;
+  height: 100%;
+  transition: width 0.3s ease;
+}
+
+.gift-msg {
+  color: green;
+  font-weight: bold;
+  margin-top: 1rem;
+}
